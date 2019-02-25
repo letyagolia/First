@@ -1,0 +1,5 @@
+C:\Users\olial_000\source\repos\DrPolina\DrPolina.Core\bin\Debug\netstandard2.0\DrPolina.Domain.dll
+C:\Users\olial_000\source\repos\DrPolina\DrPolina.Core\obj\Debug\netstandard2.0\DrPolina.Core.csprojAssemblyReference.cache
+C:\Users\olial_000\source\repos\DrPolina\DrPolina.Core\obj\Debug\netstandard2.0\DrPolina.Core.csproj.CoreCompileInputs.cache
+C:\Users\olial_000\source\repos\DrPolina\DrPolina.Core\obj\Debug\netstandard2.0\DrPolina.Core.AssemblyInfoInputs.cache
+C:\Users\olial_000\source\repos\DrPolina\DrPolina.Core\obj\Debug\netstandard2.0\DrPolina.Core.AssemblyInfo.cs
