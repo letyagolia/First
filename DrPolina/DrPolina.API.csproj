@@ -2,6 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.1</TargetFramework>
+    <UserSecretsId>67104d06-bb26-4cc0-af65-583bf7b57a8e</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
@@ -11,6 +12,11 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DrPolina.Core\DrPolina.Core.csproj" />
+    <ProjectReference Include="..\DrPolina.Domain\DrPolina.Domain.csproj" />
   </ItemGroup>
 
 </Project>

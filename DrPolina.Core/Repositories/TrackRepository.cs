@@ -37,6 +37,19 @@ namespace DrPolina.Core.Repositories
             return track;
         }
 
+        public async Task<List<AlbumDto>> GetByArtist(Guid id)     //Поиск альбомов исполнителя
+        {
+            var artist = ArtistConverter.Convert(await _context.Artists.FindAsync(id));
+            return artist.Albums;
+        }
+
+        public async Task<List<TrackDto>> GetTracksByAlbum(Guid id)    //Вывод трэков альбома
+        {
+            var album = AlbumConverter.Convert(await _context.Albums.FindAsync(id));
+            return album.Tracks;
+        }
+
+
         public async Task<TrackDto> CreateAsync(TrackDto item)
         {
             var result = _context.Tracks.Add(TrackConverter.Convert(item));

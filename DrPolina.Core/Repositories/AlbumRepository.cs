@@ -1,6 +1,7 @@
 ﻿using DrPolina.Core.EF;
 using DrPolina.Domain.Converters;
 using DrPolina.Domain.Dto;
+using DrPolina.Domain.Entitties;
 using DrPolina.Domain.Repositories;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -30,6 +31,12 @@ namespace DrPolina.Core.Repositories
             var album = AlbumConverter.Convert( await _context.Albums.FindAsync(id));
             album.ArtistName = _artistRepo.GetByIdAsync(id).Result.Name;
             return album;
+        }
+
+        public async Task<List<AlbumDto>> GetAlbumsByArtist(Guid id)  //Поиск альбома по id артиста
+        {
+            var artist = ArtistConverter.Convert(await _context.Artists.FindAsync(id));  //Находим артиста по id 
+            return artist.Albums;
         }
 
         public async Task<AlbumDto> CreateAsync (AlbumDto item)
