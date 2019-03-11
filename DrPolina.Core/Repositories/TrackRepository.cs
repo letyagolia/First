@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace DrPolina.Core.Repositories
 {
-    class TrackRepository
+    public class TrackRepository
     {
         private readonly MusicContext _context;
         private readonly IAlbumRepository _albumRepo;
