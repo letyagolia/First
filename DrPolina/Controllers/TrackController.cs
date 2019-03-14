@@ -41,8 +41,8 @@ namespace DrPolina.API.Controllers
             }
         }
 
-        [HttpGet("{id}")]   //поиск альбомов исполнителя
-        public async Task<IActionResult> GetAlbum(Guid id)
+        [HttpGet("{id}")]   //поиск трэков по исполнителю
+        public async Task<IActionResult> GetTracks(Guid id)
         {
             try
             {
