@@ -2594,11 +2594,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\olial_000\\source\\repos\\DrPolina\\DrPolina.Core\\DrPolina.Core.csproj",
+      "projectUniqueName": "C:\\Users\\olial_000\\Desktop\\Бизнес.ру\\Asp.net\\лажа\\First\\DrPolina.Core\\DrPolina.Core.csproj",
       "projectName": "DrPolina.Core",
-      "projectPath": "C:\\Users\\olial_000\\source\\repos\\DrPolina\\DrPolina.Core\\DrPolina.Core.csproj",
+      "projectPath": "C:\\Users\\olial_000\\Desktop\\Бизнес.ру\\Asp.net\\лажа\\First\\DrPolina.Core\\DrPolina.Core.csproj",
       "packagesPath": "C:\\Users\\olial_000\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\olial_000\\source\\repos\\DrPolina\\DrPolina.Core\\obj\\",
+      "outputPath": "C:\\Users\\olial_000\\Desktop\\Бизнес.ру\\Asp.net\\лажа\\First\\DrPolina.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -2617,8 +2617,8 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "C:\\Users\\olial_000\\source\\repos\\DrPolina\\DrPolina.Domain\\DrPolina.Domain.csproj": {
-              "projectPath": "C:\\Users\\olial_000\\source\\repos\\DrPolina\\DrPolina.Domain\\DrPolina.Domain.csproj"
+            "C:\\Users\\olial_000\\Desktop\\Бизнес.ру\\Asp.net\\лажа\\First\\DrPolina.Domain\\DrPolina.Domain.csproj": {
+              "projectPath": "C:\\Users\\olial_000\\Desktop\\Бизнес.ру\\Asp.net\\лажа\\First\\DrPolina.Domain\\DrPolina.Domain.csproj"
             }
           }
         }

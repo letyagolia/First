@@ -11,8 +11,8 @@ namespace DrPolina.Domain.Repositories
     {
         Task<List<TrackDto>> GetAllAsync();
         Task<TrackDto> GetByIdAsync(Guid id);
-        Task<List<AlbumDto>> GetByArtist(Guid id);     //Поиск альбомов исполнителя
-        Task<List<TrackDto>> GetTracksByAlbum(Guid id);    //Вывод трэков альбома
+        Task<List<TrackDto>> GetByArtist(Guid id);     //Поиск трэков по исполнителю
+        Task<List<TrackDto>> GetTracksByAlbum(Guid id);    //Поиск по альбому
         Task<TrackDto> CreateAsync(TrackDto item);
         Task<bool> UpdateAsync(TrackDto item);
         Task<bool> DeleteAsync(Guid id);

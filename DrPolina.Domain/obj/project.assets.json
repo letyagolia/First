@@ -185,11 +185,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\olial_000\\source\\repos\\DrPolina\\DrPolina.Domain\\DrPolina.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\olial_000\\Desktop\\Бизнес.ру\\Asp.net\\лажа\\First\\DrPolina.Domain\\DrPolina.Domain.csproj",
       "projectName": "DrPolina.Domain",
-      "projectPath": "C:\\Users\\olial_000\\source\\repos\\DrPolina\\DrPolina.Domain\\DrPolina.Domain.csproj",
+      "projectPath": "C:\\Users\\olial_000\\Desktop\\Бизнес.ру\\Asp.net\\лажа\\First\\DrPolina.Domain\\DrPolina.Domain.csproj",
       "packagesPath": "C:\\Users\\olial_000\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\olial_000\\source\\repos\\DrPolina\\DrPolina.Domain\\obj\\",
+      "outputPath": "C:\\Users\\olial_000\\Desktop\\Бизнес.ру\\Asp.net\\лажа\\First\\DrPolina.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

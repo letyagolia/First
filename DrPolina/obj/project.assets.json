@@ -11836,11 +11836,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\olial_000\\source\\repos\\DrPolina\\DrPolina\\DrPolina.API.csproj",
+      "projectUniqueName": "C:\\Users\\olial_000\\Desktop\\Бизнес.ру\\Asp.net\\лажа\\First\\DrPolina\\DrPolina.API.csproj",
       "projectName": "DrPolina.API",
-      "projectPath": "C:\\Users\\olial_000\\source\\repos\\DrPolina\\DrPolina\\DrPolina.API.csproj",
+      "projectPath": "C:\\Users\\olial_000\\Desktop\\Бизнес.ру\\Asp.net\\лажа\\First\\DrPolina\\DrPolina.API.csproj",
       "packagesPath": "C:\\Users\\olial_000\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\olial_000\\source\\repos\\DrPolina\\DrPolina\\obj\\",
+      "outputPath": "C:\\Users\\olial_000\\Desktop\\Бизнес.ру\\Asp.net\\лажа\\First\\DrPolina\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -11859,11 +11859,11 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Users\\olial_000\\source\\repos\\DrPolina\\DrPolina.Core\\DrPolina.Core.csproj": {
-              "projectPath": "C:\\Users\\olial_000\\source\\repos\\DrPolina\\DrPolina.Core\\DrPolina.Core.csproj"
+            "C:\\Users\\olial_000\\Desktop\\Бизнес.ру\\Asp.net\\лажа\\First\\DrPolina.Core\\DrPolina.Core.csproj": {
+              "projectPath": "C:\\Users\\olial_000\\Desktop\\Бизнес.ру\\Asp.net\\лажа\\First\\DrPolina.Core\\DrPolina.Core.csproj"
             },
-            "C:\\Users\\olial_000\\source\\repos\\DrPolina\\DrPolina.Domain\\DrPolina.Domain.csproj": {
-              "projectPath": "C:\\Users\\olial_000\\source\\repos\\DrPolina\\DrPolina.Domain\\DrPolina.Domain.csproj"
+            "C:\\Users\\olial_000\\Desktop\\Бизнес.ру\\Asp.net\\лажа\\First\\DrPolina.Domain\\DrPolina.Domain.csproj": {
+              "projectPath": "C:\\Users\\olial_000\\Desktop\\Бизнес.ру\\Asp.net\\лажа\\First\\DrPolina.Domain\\DrPolina.Domain.csproj"
             }
           }
         }

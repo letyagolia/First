@@ -6,6 +6,7 @@ using DrPolina.Domain.Repositories;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -37,13 +38,16 @@ namespace DrPolina.Core.Repositories
             return track;
         }
 
-        public async Task<List<AlbumDto>> GetByArtist(Guid id)     //Поиск альбомов исполнителя
+        public async Task<List<TrackDto>> GetByArtist(Guid id)     //Поиск трэков по исполнителю
         {
             var artist = ArtistConverter.Convert(await _context.Artists.FindAsync(id));
-            return artist.Albums;
+            List<TrackDto> tracks = new List<TrackDto>();
+            var track = TrackConverter.Convert(await _context.Tracks.FindAsync(id));
+            tracks = TrackConverter.Convert(_context.Tracks.Where(x => x.ArtistId == artist.Id).ToList());
+            return tracks;
         }
 
-        public async Task<List<TrackDto>> GetTracksByAlbum(Guid id)    //Вывод трэков альбома
+        public async Task<List<TrackDto>> GetTracksByAlbum(Guid id)    //Поиск трэков по альбому
         {
             var album = AlbumConverter.Convert(await _context.Albums.FindAsync(id));
             return album.Tracks;
